@@ -1,0 +1,45 @@
+.title{
+    color:rgb(255, 253, 253) ;
+    text-shadow: 1px 1px black;
+    margin-top: 25px;
+}
+
+.text{
+    color:rgb(46, 175, 7);
+    font-weight: 500;  
+    text-decoration: line-through; 
+}
+.container{
+    
+    background-color: rgb(78, 75, 75);
+    border-radius: 5%;
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 50px;  
+}
+.margenes{
+    margin: auto;
+    margin-bottom: 25px;
+    width: 50%;
+}
+.contenido{
+    margin: 0 auto;
+    
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width:500px) {
+    .container{
+        width: 90%;
+        
+        
+    }
+    .title{
+        font-size:25px ;
+    }
+    .margenes{
+        width: 100%;
+    }
+}
