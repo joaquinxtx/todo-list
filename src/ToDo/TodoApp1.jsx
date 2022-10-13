@@ -14,6 +14,7 @@ export const TodoApp1 = () => {
             Listas de tareas <hr />
             Tareas en total : {todoCount} <hr /> 
             <span> Tareas Pendientes: {pendingTodo} </span> 
+            
         </h1>
         <div className='contenido'>
             <hr />
